@@ -1,0 +1,8 @@
+.app {
+  background-color: rgb(245, 247, 251);
+  width: 100%;
+}
+.static-frames {
+  display: flex;
+  width: 100%;
+}

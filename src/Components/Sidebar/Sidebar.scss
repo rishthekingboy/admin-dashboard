@@ -1,0 +1,10 @@
+.sidebar {
+  width: calc(17vw - 0px);
+  height: 100vh;
+  background-color: rgb(34, 46, 60);
+  transition: width 0.5s;
+}
+
+.toggle-sidebar {
+  width: 0px;
+}

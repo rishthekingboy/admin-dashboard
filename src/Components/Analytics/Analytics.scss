@@ -1,0 +1,45 @@
+.analytics {
+  padding: 20px 0;
+  .analytics-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    .analytics-header-label {
+      font-size: 22px;
+    }
+
+    .analytics-header-btns {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      .analytics-header-btns:first-child {
+        background-color: white;
+      }
+      .analytics-header-btns:last-child {
+        background-color: rgb(58, 125, 221);
+        color: white;
+      }
+      .analytics-header-btns {
+        padding: 10px;
+        border-radius: 4px;
+      }
+    }
+  }
+
+  .analytics-cards {
+    .analytics-cards-row {
+      display: flex;
+      height: 100%;
+      height: 400px;
+      padding: 10px 50px;
+      .analytics-cards-leftCol {
+        width: 50%;
+      }
+
+      .analytics-cards-rightCol {
+        width: 50%;
+        background-color: white;
+      }
+    }
+  }
+}
